@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+/* headings */
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.section-1 {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.wrapper {
+    position: relative;
+    padding: 5%;
+    margin: 0 auto;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu {
+    float: right;
+}
+.menu ul { 
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 0 20px;
+    color: #fff;
+}
+.heading {
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+    line-height: 1.8;
+}
+.heading h1{
+    font-size: 37px;
+}
+.heading p {
+    font-size: 18px;
+    
+}
+.btn {
+    width: 45%;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: hsl(198, 60%, 50%);
+    color: #fff;
+}
+.section-2 {
+    background-color: hsl(218, 28%, 13%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 0 10%;
+}
+.features {
+    padding: 12%;
+}
+.team {
+    display: flex;
+}
+.productive-text {
+    padding: 8% 4%;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.productive-text h1 {
+    width: 70%;
+    font-size: 36px;
+}
+.testimonial-wrap {
+    padding: 3% 0;
+    background-image: url(../images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.testimonial {
+    width: 25%;
+    background-color: hsl(219, 30%, 18%);
+    border: 1px;
+    margin: 0 18px;
+    padding: 30px;
+}
+.profile {
+    display: flex;
+    
+}
+.profile-image > img {
+    border-radius: 100%;
+    height: 25px;
+}
+.profile-text {
+    margin-left: 10px;
+    padding: 0;  
+}
+ .profile-text h4 {
+    margin: 0 0 1px;
+    font-size: 11px;
+} 
+.profile-text p {
+    margin-top: 0;
+    font-size: 8px;
+}
+.cta {
+    text-align: center;
+    width: 70%;
+    background-color: hsl(217, 28%, 15%);
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(2, 35, 100, 0.07);
+    position: relative;
+    top: 150px;
+    left: 150px;
+    align-items: center;
+    padding: 2%;
+
+}
+.cta h2 {
+    font-size: 30px;
+}
+.cta .btn {
+    width: 28.50%;
+} 
+
+.last-section {
+    background-color: hsl(216, 53%, 9%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
