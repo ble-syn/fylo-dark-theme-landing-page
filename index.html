@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4d9bb6ced8.js" crossorigin="anonymous"></script>
+  
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
@@ -77,9 +79,7 @@
     <section id="team" class="section-2">
       <div class="wrapper">
         <div class="team">
-          <div class="productive-image">
-            <img src="images/illustration-stay-productive.png" alt="productivity">
-          </div>
+          <img class="productive-image" src="images/illustration-stay-productive.png" alt="productivity">
           <div class="productive-text">
             <h1>Stay productive, wherever you are</h1>
             <p> Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
@@ -89,7 +89,7 @@
               Securely share files and folders with friends, family and colleagues for live collaboration. No email 
               attachments required.
             </p>
-            <a href="#"> See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
+            <a class="productive-link" href="#"> See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
           </div>
 
         </div>
@@ -146,47 +146,65 @@
               </div>
             </div>
           </div>
-
-        </div>
-
-        <div class="cta">
-          <h2>Get early access today</h2>
-          <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-            questions, our support team would be happy to help you.</p>
-            <button class="btn">Get Started For Free</button>
-
         </div>
       </div>
 
     </section>
+    <section class="section-2">
+      <div class="wrapper call-to-action">
+        <div class="cta">
+          <div class="cta-text">
+            <h2>Get early access today</h2>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+              questions, our support team would be happy to help you.</p>
+              <input id="email" class="email" type="email" name="email" placeholder="email@example.com" />
+              <button class="btn">Get Started For Free</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="last-section">
-      <div class="wrapper">
-        <div class="footer">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua</p>
+      <div class="wrapper footer-section">
+        <img class="footer-img" src="images/logo.svg" alt="logo">
+        <div class="footer-text">
 
-        </div>
-        <div class="footer">
-          <p>+1-543-123-4567</p>
-          <p>example@fylo.com</p>
+          <div class="footer location">
+            <div class="location-img">
+              <img src="images/icon-location.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+              dolore magna aliqua</p>
+          </div>
 
-        </div>
-        <div class="footer">
-          <p> About Us</p>
-          <p>Jobs</p>
-          <p>Press</p>
-          <p>Blog</p>
+          <div class="footer">
+            <p><span class="footer-icon"><img src="images/icon-phone.svg" alt=""></span>+1-543-123-4567</p>
+            <p><span class="footer-icon"><img src="images/icon-email.svg" alt=""></span>example@fylo.com</p>
+          </div>
 
+          <div class="footer">
+            <p> About Us</p>
+            <p>Jobs</p>
+            <p>Press</p>
+            <p>Blog</p>
+
+          </div>
+          
+          <div class="footer">
+            <p>Contact Us</p>
+            <p>Terms</p>
+            <p>Privacy</p>
+          </div>
+          <div class="footer">
+            <div class="font-awesome">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+
+          </div>
         </div>
-        
-        <div class="footer">
-          <p>Contact Us</p>
-          <p>Terms</p>
-          <p>Privacy</p>
-        </div>
-        <div class="footer">
-          font awesome
-        </div>
+      
       </div>
 
       <footer>
