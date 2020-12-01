@@ -184,10 +184,6 @@ nav {
     width: 30%;
     padding: 15px;
 } 
-.btn a {
-    text-decoration: none;
-    color: #fff;
-}
 
 .last-section {
     background-color: hsl(216, 53%, 9%);
@@ -217,6 +213,11 @@ nav {
 }
 .footer p {
     margin: 0 0 15px;
+    line-height: 2;
+}
+.footer h4 {
+    margin: 0 0 15px;
+    line-height: 2;
 }
 .footer-icon {
     margin-right: 20px;
@@ -342,9 +343,6 @@ nav {
     }
     .footer {
         margin-bottom: 100px;
-    }
-    .footer p {
-        margin: 0 0 15px;
     }
     .font-awesome {
         text-align: center;
