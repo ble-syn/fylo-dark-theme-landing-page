@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5 {
     background-position: bottom;
 }
 .wrapper {
+    max-width: 1980px;
     padding: 5% 5% 2%;
    
 }
