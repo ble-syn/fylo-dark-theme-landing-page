@@ -61,8 +61,8 @@ nav {
     width: 50%;
     line-height: 1.8;
 }
-.heading h1{
-    font-size: 37px;
+.heading h2{
+    font-size: 40px;
 }
 .heading p {
     font-size: 18px;
@@ -265,8 +265,8 @@ nav {
     .heading {
         width: 100%; 
     }
-    .heading h1 {
-        font-size: 32px;
+    .heading h2 {
+        font-size: 35px;
     }
     .heading img {
         width: 100%;
