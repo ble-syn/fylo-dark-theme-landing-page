@@ -179,6 +179,10 @@ nav {
     width: 30%;
     padding: 15px;
 } 
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .last-section {
     background-color: hsl(216, 53%, 9%);
@@ -248,8 +252,10 @@ nav {
         background-size: contain; 
     }
     .heading {
-        width: 100%;
-        
+        width: 100%; 
+    }
+    .heading h1 {
+        font-size: 32px;
     }
     .heading img {
         width: 100%;
@@ -305,6 +311,9 @@ nav {
         width: 100%;
         top: 100px;
     }
+    .cta-text {
+        padding: 30px;
+    }
     .email {
         width: 100%;
     }
@@ -329,6 +338,10 @@ nav {
     }
     .font-awesome {
         text-align: center;
+    }
+    .logo {
+        height: 35px;
+        margin-top: 15px;
     }
   
 }
