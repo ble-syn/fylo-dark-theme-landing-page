@@ -199,7 +199,7 @@ nav {
 
 .footer-text {
     display: grid;
-    grid-template-columns: 31% 23% 14% 14% 16%;
+    grid-template-columns: 31% 23% 13% 14% 17%;
 }
 
 .location {
@@ -222,15 +222,15 @@ nav {
 .footer-icon {
     margin-right: 20px;
 }
-.footer a {
+.social-icon a {
     text-decoration: none;
     color: #fff;
 }
 .fab {
     margin-right: 7px;
     border: 1px solid white;
-    padding: 5px;
-    border-radius: 100px;
+    padding: 6px;
+    border-radius: 100%;
 }
 
 .attribution { 
@@ -344,7 +344,7 @@ nav {
     .footer {
         margin-bottom: 100px;
     }
-    .font-awesome {
+    .social-icon {
         text-align: center;
     }
     .logo {
